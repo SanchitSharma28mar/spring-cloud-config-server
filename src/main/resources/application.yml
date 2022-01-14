@@ -5,6 +5,22 @@ spring:
       server:
         git:
           uri: https://github.com/SanchitSharma28mar/spring-config-repo
+          force-pull: true
+          delete-untracked-branches: true
+          refresh-rate: 60
+
+#    bus:
+#      enabled: true          
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: guest
+#    password: guest
+#    bus:
+#      enabled: true
+#  kafka:
+#    bootstrap-servers:
+#    - http://localhost:9092
 
 server:
   port: 8888          
